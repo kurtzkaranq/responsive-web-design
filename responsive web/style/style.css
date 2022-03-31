@@ -1,6 +1,10 @@
 body {
   box-sizing: border-box;
 }
+.head-left {
+  border-radius: 20px;
+  margin-right: 0;
+}
 .main {
   height: 100%;
 }
@@ -40,6 +44,7 @@ ul li a:hover {
   padding-top: 1%;
   padding-bottom: 5%;
 }
+
 .title-pic li {
   text-align: center;
   background-color: aqua;
@@ -48,7 +53,7 @@ ul li a:hover {
   padding: 10px 0px;
 }
 .title-pic img {
-  width: 80%;
+  max-width: 80%;
   height: 20%;
 }
 .right-col {
